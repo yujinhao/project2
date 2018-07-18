@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+            <xsi:element name="datasource">
+            	<xsi:complexType>
+            		<xsi:sequence>
+            			<xsi:element name="driver" type="xsi:string"></xsi:element>
+            			<xsi:element name="url" type="xsi:string"></xsi:element>
+            			<xsi:element name="user" type="xsi:string"></xsi:element>
+            			<xsi:element name="password" type="xsi:string"></xsi:element>
+            		</xsi:sequence>
+            	</xsi:complexType>
+            </xsi:element>
+            
+</xsi:schema>
